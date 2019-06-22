@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>State Gasoline Taxes</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href ="css/style.css">
+
+</head>
+<body>
+
+  <div id="header" class="row">
+      <div class="col-xs-4">
+        <h3 id="title-name">Lead in Schools</h3>
+      </div>
+      <div class="col-xs-4">
+        <h3 id="placeholder1"></h3>
+      </div>
+      <div class="col-xs-4">
+        <h3 id="placerholder2"></h3>
+      </div>
+  </div>
+
+  <div id="slider">
+    <div id="custom-handle" class="ui-slider-handle"></div>
+  </div>
+
+  <div id="container">
+
+      <svg width="960" height="600"></svg>
+
+      <div id="sidebar">
+          <div id="sidebar-title">2000</div>
+          <div id="sidebar-cutoff">
+              <label for="cutoff">Select a cutoff</label>
+              <select name="cutoff" id="cutoff">
+                  <option selected="selected">None</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+              </select>
+          </div>
+          <div id="sidebar-count">Total increases: 139</div>
+
+      </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>

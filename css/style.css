@@ -1,0 +1,121 @@
+.container {
+    height: auto;
+    overflow: hidden;
+}
+
+.right {
+    width: 300px;
+    float: right;
+    background: #aafed6;
+}
+
+.left {
+    float: none; /* not needed, just for clarification */
+    /* the next props are meant to keep this block independent from the other floated one */
+    width: auto;
+    overflow: hidden;
+}​​
+
+
+ .state-no-highlight {
+     stroke: #fff;
+     stroke-width: 0.5px;
+
+ }
+
+
+.state-highlight {
+    stroke: darkred;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+ }
+
+.state-borders {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 0.5px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+
+
+
+.navbar-nav {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+#header {
+    height: 50px;
+    background-color: #F8F8F8;
+    padding-bottom: 60px
+}
+
+#title-name {
+    margin-left: 15px;
+}
+
+#slider {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/* Style for Custom Tooltip */
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#sidebar {
+    position: relative;
+    left: 1000px;
+    bottom: 550px;
+    height: 550px;
+    width: 250px;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height:26.4px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+#sidebar-title {
+    font-size:36px;
+}
+
+#sidebar-cutoff {
+    font-size:16px;
+    margin-top: 30px;
+
+}
+
+#sidebar-count {
+    font-size:16px;
+    margin-top: 10px;
+
+}
